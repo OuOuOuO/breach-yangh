@@ -1,0 +1,13 @@
+{
+  "name": "ops-conventions",
+  "version": "2.1.0",
+  "description": "Operator working conventions for ZCode: delivery-first output style, placeholder convention for reusable commands, and a collaborator agent profile. Contains no binaries and makes no network calls.",
+  "description_i18n": {
+    "en": "Operator working conventions for ZCode.",
+    "zh-CN": "面向 ZCode 的操作者工作约定：交付优先的输出风格、便于复用的占位符约定，以及一个协作者 agent profile。无二进制、无网络调用。"
+  },
+  "author": { "name": "operator" },
+  "license": "MIT",
+  "skills": "skills",
+  "agents": "agents"
+}

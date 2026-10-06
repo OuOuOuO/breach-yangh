@@ -1,0 +1,26 @@
+# 运行产物：备份与中间文件（都由工具生成，不该进版本库）
+*.bak
+*.bak.superseded
+*.bak.contaminated
+*.pre-restore.bak
+*.old-upgrade
+
+# 前端构建 / 依赖
+node_modules/
+dist/
+.vite/
+
+# 编辑器与系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# 日志与临时文件
+*.log
+*.tmp
+*.temp
+
+# 打包产物
+*.zip
+*.tar.gz
